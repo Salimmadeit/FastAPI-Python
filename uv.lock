@@ -332,6 +332,7 @@ dependencies = [
     { name = "imagekitio" },
     { name = "pydantic" },
     { name = "python-dotenv" },
+    { name = "sqlalchemy" },
     { name = "uvicorn", extra = ["standard"] },
 ]
 
@@ -343,6 +344,7 @@ requires-dist = [
     { name = "imagekitio", specifier = ">=5.10.0" },
     { name = "pydantic", specifier = ">=2.13.5" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
+    { name = "sqlalchemy", specifier = ">=2.0.54" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.54.0" },
 ]
 
